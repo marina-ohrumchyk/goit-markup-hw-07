@@ -1,4 +1,4 @@
-.link-nav.carrent::after {
+.list-nav__link.carrent::after {
   content: '';
   display: block;
   width: 100%;
@@ -17,22 +17,25 @@
   display: flex;
   margin-left: 93px;
 }
-.item {
+.list-nav__item {
   position: relative;
 
   margin-right: 50px;
 }
-.item:last-child {
+.list-nav__item:last-child {
+  margin-right: 0;
+}
+.contacts-list__item {
+  margin-right: 50px;
+}
+.contacts-list__item:last-child {
   margin-right: 0;
 }
 
-.list-contacts {
+.contacts-list {
   display: flex;
 }
-.logo-nav {
-  display: flex;
-  align-items: center;
-}
+
 .heder-container {
   display: flex;
   align-items: center;
@@ -40,7 +43,7 @@
 .heder-contacts {
   margin-left: auto;
 }
-.link-nav {
+.list-nav__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -57,12 +60,12 @@
   color: var(--link-color);
 }
 
-.link-nav:hover,
-.link-nav:focus {
+.list-nav__link:hover,
+.list-nav__link:focus {
   color: var(--link-color);
 }
 
-.contacts-link {
+.contacts-list__link {
   display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -78,8 +81,8 @@
   transition: color 250ms var(--transition-function);
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
+.contacts-list__link:hover,
+.contacts-list__link:focus {
   color: var(--link-color);
 }
 

@@ -2,17 +2,17 @@
   display: flex;
 }
 
-.item-features {
+.features-list__item {
   display: block;
   max-width: 270px;
 
   margin-right: 30px;
 }
-.item-features:last-child {
+.features-list__item:last-child {
   margin-right: 0;
 }
 
-.icon-features {
+.features-list__icon {
   display: flex;
   width: 270px;
   height: 120px;
@@ -23,10 +23,10 @@
   border-radius: 4px;
 }
 
-.title {
+.features-list__title {
   margin-bottom: 10px;
 }
-.features-list .title {
+.features-list__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
