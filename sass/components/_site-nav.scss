@@ -86,8 +86,8 @@
   color: var(--link-color);
 }
 
-.contacts-link:hover svg,
-.contacts-link:focus svg {
+.contacts-list__link:hover svg,
+.contacts-list__link:focus svg {
   fill: var(--color-active);
 }
 
