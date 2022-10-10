@@ -1,18 +1,18 @@
 .customer {
   margin-bottom: 50px;
 }
-.customer-list {
+.customer__list {
   display: flex;
 }
 
-.customers-team {
+.customer__item {
   margin-right: 30px;
 }
-.customers-team:last-child {
+.customer__item:last-child {
   margin-right: 0;
 }
 
-.customers-link {
+.customer__link {
   width: 170px;
   height: 92px;
   border-radius: 4px;
@@ -25,8 +25,8 @@
   transition: fill 250ms var(--transition-function);
 }
 
-.customers-link:hover,
-.customers-link:focus {
+.customer__link:hover,
+.customer__link:focus {
   border: 1px solid var(--link-color);
   fill: var(--link-color);
 }
