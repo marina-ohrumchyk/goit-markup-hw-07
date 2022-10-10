@@ -1,4 +1,4 @@
-.logo {
+.navigation__logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -8,11 +8,11 @@
   color: var(--secondary-tex-color);
 }
 
-.accent {
+.navigation__accent {
   font-family: Raleway, sans-serif;
   color: var(--link-color);
 }
-.logo-nav {
+.navigation {
   display: flex;
   align-items: center;
 }
